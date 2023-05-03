@@ -23,19 +23,29 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <mybatis.version>2.2.2</mybatis.version>
+        <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
+
         <mysql.version>8.0.31</mysql.version>
         <fastjson.version>1.2.83</fastjson.version>
         <mail.version>2.3.4.RELEASE</mail.version>
+        <lombok.version>1.18.24</lombok.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
-            <!--mybatis-->
+            <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
             <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>${mybatis.version}</version>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
             </dependency>
+
+            <!--mybatis-->
+<!--            <dependency>-->
+<!--                <groupId>org.mybatis.spring.boot</groupId>-->
+<!--                <artifactId></artifactId>-->
+<!--                <version>${mybatis.version}</version>-->
+<!--            </dependency>-->
             <!-- mail -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -54,7 +64,20 @@
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
