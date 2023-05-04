@@ -1,2 +1,20 @@
 server:
   port: 7002
+spring:
+  application:
+    name: bbs-web
+  # 配置数据源
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/bbs?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  # 配置日志
+  mybatis-plus:
+    configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mail:
+    username: aa@qq.com
+    password: 123456
+    host: smtp.qq.com #我用的是qq，用其他的也是一样
+    default-encoding: utf-8

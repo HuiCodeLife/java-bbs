@@ -12,7 +12,7 @@ public class BaseController {
     protected static final String STATUS_SUCCESS = "success";
     protected static final String STATUS_ERROR = "error";
 
-    protected <T> ResponseVo getSuccessResponseVo(T t) {
+    protected <T> ResponseVo<T> getSuccessResponseVo(T t) {
         ResponseVo<T> responseVo = new ResponseVo<>();
         responseVo.setStatus(STATUS_SUCCESS);
         responseVo.setCode(ResponseCodeEnum.CODE_200.getCode());

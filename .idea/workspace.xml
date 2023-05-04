@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed4ea18b-08d2-4892-a431-92cdd5f6c37a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bbs-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbs-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbs-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs-admin/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bbs-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbs-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs-common/src/main/java/com/h/core/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bbs-common/src/main/java/com/h/core/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs-common/src/main/java/com/h/core/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/bbs-common/src/main/java/com/h/core/exception/BusinessException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bbs-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bbs-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs-web/src/main/java/com/h/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bbs-web/src/main/java/com/h/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs-web/src/main/java/com/h/com/h/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bbs-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbs-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bbs-web/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,18 +62,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/java-project/java-bbs/bbs-web/src/main/resources",
+    "last_opened_file_path": "D:/java-project/java-bbs/bbs-common/src/main/java/com/h/service",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "spring.configuration.checksum": "b1c54feaf9e278a60ae42f4c41a895bb",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
+    "spring.configuration.checksum": "6a99386dcae2cbe9f24e97a59f7e1d11",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java-project\java-bbs\bbs-web\src\main\resources" />
+      <recent name="D:\java-project\java-bbs\bbs-common\src\main\java\com\h\service" />
+      <recent name="D:\java-project\java-bbs\bbs-common\src\main\java\com\h\service\impl" />
+      <recent name="D:\java-project\java-bbs\bbs-common\src\main\java\com\h\mapper" />
+      <recent name="D:\java-project\java-bbs\bbs-common\src\main\resources\mapper" />
+      <recent name="D:\java-project\java-bbs\bbs-common\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java-project\java-bbs\bbs-common\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.h" />
@@ -125,7 +138,9 @@
       <updated>1683013073456</updated>
       <workItem from="1683013075118" duration="4599000" />
       <workItem from="1683029566021" duration="426000" />
-      <workItem from="1683117606685" duration="2626000" />
+      <workItem from="1683117606685" duration="2704000" />
+      <workItem from="1683166837646" duration="3820000" />
+      <workItem from="1683179486503" duration="6650000" />
     </task>
     <servers />
   </component>
@@ -142,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
